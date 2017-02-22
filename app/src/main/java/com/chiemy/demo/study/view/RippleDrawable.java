@@ -23,7 +23,9 @@ public class RippleDrawable extends Drawable {
 
     public RippleDrawable() {
         paint = new Paint(Paint.ANTI_ALIAS_FLAG);
+        // 抗锯齿(边缘平衡无锯齿)
         paint.setAntiAlias(true);
+        // 防抖动(颜色过渡自然)
         paint.setDither(true);
     }
 

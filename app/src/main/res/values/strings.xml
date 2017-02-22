@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Study</string>
+    <string name="ripple">CustomRippleDrawable</string>
+    <string name="xfermode">Xfermode 实现圆角矩形图片</string>
+    <string name="shader">Shader 实现圆形图片</string>
+    <string name="reflection">倒影效果实现</string>
 </resources>

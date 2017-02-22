@@ -15,7 +15,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CustomRippleDrawableActivity"></activity>
+        <activity
+            android:name=".CustomRippleDrawableActivity"
+            android:label="@string/ripple" />
+        <activity
+            android:name=".XfermodeTest"
+            android:label="@string/xfermode" />
+        <activity
+            android:name=".ShaderTest"
+            android:label="@string/shader" />
+        <activity
+            android:name=".ReflectionTest"
+            android:label="@string/reflection"
+            />
     </application>
 
 </manifest>
