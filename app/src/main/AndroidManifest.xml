@@ -26,8 +26,10 @@
             android:label="@string/shader" />
         <activity
             android:name=".ReflectionTest"
-            android:label="@string/reflection"
-            />
+            android:label="@string/reflection" />
+        <activity
+            android:name=".MeshTest"
+            android:label="@string/mesh"/>
     </application>
 
 </manifest>
