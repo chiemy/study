@@ -13,6 +13,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.chiemy.demo.study.view.WaveDrawable;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -32,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         }
 
+        getWindow().getDecorView().setBackgroundDrawable(new WaveDrawable());
     }
 
     private class MainAdapter extends RecyclerView.Adapter<ItemViewHolder> {
